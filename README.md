@@ -1,6 +1,6 @@
 # Quantifying and estimating dependence via sensitivity of conditional distributions
 
-The paper is available at https://arxiv.org/abs/2308.06168
+This repository contains supplementary material to the paper "Quantifying and estimating dependence via sensitivity of conditional distributions".
 
 ## How to Use
 * Core_Functions.R contains all functions needed to calculate an estimate of the functional Lambda_phi. If you want to use our method on your own data you will first have to apply the function ECBC from the qad package[1] to your data and then use the function Lambda_phi from this file on the output.
